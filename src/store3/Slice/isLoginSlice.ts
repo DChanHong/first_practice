@@ -13,8 +13,10 @@ export const isLoginSlice =createSlice({
     reducers:{
         SET_IS_LOGIN : (state ,action)=>{
             state.is_Login = action.payload
+            
         },
-        REMOVE_IS_LOGIN :(state)=>{
+        REMOVE_IS_LOGIN :(state )=>{
+            // state.is_Login = action.payload;
             state.is_Login = false;
         }
     }

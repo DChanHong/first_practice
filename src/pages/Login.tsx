@@ -1,6 +1,5 @@
-
-import Header from '../components/PageFrame/Header'
-import LoginBox from '../components/LoginSign/LoginBox'
+import Header from "../components/PageFrame/Header";
+import LoginBox from "../components/LoginSign/LoginBox";
 // - API생성 해보기
 //     - 프론트엔드에 로그인 페이지 레이아웃 생성
 //     - 로그인 페이지에서 아이디 패스워드를 적으면 API요청(axios 모듈)
@@ -9,14 +8,14 @@ import LoginBox from '../components/LoginSign/LoginBox'
 const Login = () => {
   return (
     <>
-        <div>
-            <Header/>
-        </div>
-        <div >
-            <LoginBox/>
-        </div>
+      <div>
+        <Header />
+      </div>
+      <div>
+        <LoginBox />
+      </div>
     </>
-  )
-}
+  );
+};
 
-export default Login
+export default Login;

@@ -97,6 +97,7 @@ export interface loginFormData{
 export interface userInfo {
     email:string |undefined;
     name: string |undefined;
-    fm: string |undefined
+    fm: string |undefined;
+    IMG:string|undefined;
 }
 

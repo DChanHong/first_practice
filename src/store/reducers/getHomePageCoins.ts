@@ -5,6 +5,8 @@ import { createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 import { COIN_API_URL } from "../../utils/apiUrl";
 
+
+
 export const getHomePageCoins =createAsyncThunk(
     'coinApp/HomePageCoin', // coinApp 이게 coinSlice로 만들어져있음
                             //slicename , type

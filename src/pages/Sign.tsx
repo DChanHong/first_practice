@@ -1,12 +1,11 @@
-import React from 'react'
-import SignBox from '../components/LoginSign/SignBox'
+import SignBox from "../components/LoginSign/SignBox";
 
 const Assign = () => {
   return (
     <div>
-        <SignBox/>
+      <SignBox />
     </div>
-  )
-}
+  );
+};
 
-export default Assign
+export default Assign;
